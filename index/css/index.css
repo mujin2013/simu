@@ -1,0 +1,357 @@
+/*轮播图的样式*/
+.lunboLarge{
+	width:100%;
+	height:408px;
+	background-color:#FFF;
+}
+.lunbo{
+	width:100%;
+	height:100%;
+	position:relative;
+	overflow:hidden;
+}
+.btn-left,.btn-right{
+	display:block;
+	position:absolute;
+	top:144px;
+	width:60px;
+	height:120px;
+	background-image:url("../images/slide-btn.png");
+	cursor:pointer;
+	z-index:1;
+	opacity:0.4;
+}
+a.btn-left:hover,a.btn-right:hover{
+	opacity:1;
+}
+.btn-left{
+	background-position:0 0;
+	left:30px;
+}
+.btn-right{
+	background-position:60px 0;
+	right:30px;
+}
+.lunbo-box{
+	position:relative;
+	left:-1349px;
+	width:600%;
+	height:100%;
+}
+.lunbo-box li{
+	float:left;
+	width:1349px;
+	height:408px;
+}
+.lunbo-box li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;//缩放图像的最小值，其宽度和高度都能放入内容区域
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+}
+#img01{
+	background-image:url("../images/lunbo01.png");
+}
+#img02{
+	background-image:url("../images/lunbo02.png");
+}
+#img03{
+	background-image:url("../images/lunbo03.png");
+}
+#img04{
+	background-image:url("../images/lunbo04.png");
+}
+.btn-box{
+	position:absolute;
+	top:370px;
+	left:45%;
+	width:145px;
+	height:22px;
+}
+.btn-box li{
+	float:left;
+	width:20px;
+	height:20px;
+	margin:0 8px;
+	background:#CCC;
+	border-radius:10px;
+}
+.btn-box li.curBtn{
+	background:#00d3db;
+}
+/*基金样式*/
+.jijin-box{
+	width:100%;
+	min-height:986px;
+}
+.jijin-box>li{
+	width:1172px;
+	height:302px;
+	margin:40px auto 0 auto;
+	border:#b9baba solid 1px;
+	border-radius:5px;
+	padding:31px 29px;
+	background:#FFF;
+}
+.jijin-box>li:hover{
+	box-shadow:0 0 1px 1px #d0d1d1;
+}
+.jinjin-left {
+	width:629px;
+	height:239px;
+}
+.jinjin-right{
+	width:483px;
+	height:100%;
+	padding-left:41px;
+	color:#333;
+    font-family:"Microsoft YaHei";
+}
+.jinjin-title{
+	font-size:24px;
+	line-height:48px;
+	font-weight:normal;
+	margin-bottom:10px;
+}
+.jinjin-relTxt{
+	line-height:30px;
+	font-size:16px;
+	margin-bottom:14px;
+}
+.progress-box{
+	position:relative;
+	width:430px;
+	height:14px;
+	margin-bottom:26px;
+}
+.progress{
+	width:321px;
+	height:6px;
+}
+.curPro,.bigBox{
+	display:inline-block;
+	height:6px;
+	border-radius:5px;
+}
+.curPro{
+	position:absolute;
+	top:4px;
+	background:#00d3db;
+}
+#curPro1{
+	width:150px;
+}
+#curPro2{
+	width:90px;
+}
+#curPro3{
+	width:120px;
+}
+.bigBox{
+	position:absolute;
+	top:4px;
+	width:321px;
+	background:#ececec;
+}
+.curPro-txt{
+	width:96px;
+	height:100%;
+	margin-left:11px;
+	font-size:14px;
+	line-height:14px;
+}
+.curData{
+	margin-left:11px;
+}
+.relJiJin{
+	width:430px;
+	height:65px;
+}
+.relJiJin li{
+	float:left;
+	width:33.3%;
+	text-align:center;
+}
+.relJiJin li span{
+	color:#ff6162;
+}
+.jijin-txt{
+	display:inline-block;
+	font-size:37px;
+}
+.relJiJin li p{
+	font-size:14px;
+	color:#666;
+}
+/*加载更多样式*/
+.loadMore{
+	width:100%;
+	min-height:150px;
+	padding:45px 0 53px 0;
+}
+.loadMore-txt{
+	width:586px;
+	height:52px;
+	background:#dadada;
+	text-align:center;
+	line-height:52px;
+	font-size:20px;
+	color:#999;
+	margin:0 auto;
+	border-radius:10px;
+	cursor:pointer;
+}
+/*排行榜*/
+.rankList{
+	width:100%;
+	height:408px;
+	padding-top:50px;
+	background:url("../images/paihangbang.png") center center no-repeat;
+	background-size: cover;//缩放图像的最小值，其宽度和高度都能放入内容区域
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	    -ms-background-size: cover;
+} 
+.list-txt{
+	width:247px;
+	height:25px;
+	margin:0 auto;
+	background:url("../images/paihang.png") center center no-repeat;
+}
+.list-specific{
+	width:1136px;
+	height:295px;
+	padding-top:15px;
+	margin:30px auto 0 auto;
+}
+.rankList-left{
+	position:relative;
+	width:350px;
+	height:100%;
+}
+.rankList-left div{
+	position:absolute;
+	border-radius:50%;
+	overflow:hidden;
+}
+#cir01{
+	width:160px;
+	height:160px;
+	top:10px;
+	left:0;
+	border:#ffd800 solid 8px;
+}
+#cir02{
+	width:101px;
+	height:101px;
+	top:0;
+	left:214px;
+	border:#ffffff solid 6px;
+}
+#cir03{
+	width:80px;
+	height:80px;
+	top:180px;
+	left:163px;
+	border:#dba83e solid 5px;
+}
+#cir04{
+	width:50px;
+	height:50px;
+	top:134px;
+	left:227px;
+	border:#707070 solid 3px;
+}
+.rankList-middle{
+	width:554px;
+	height:100%;
+	padding-top:8px;
+}
+.rankList-middle li{
+	font-size:16px;
+	height:37px;
+	line-height:37px;
+	margin-top:23px;
+	color:#FFF;
+}
+.rank-name{
+	width:110px;
+	text-align:left;
+}
+.rank-score{
+	width:444px;
+	height:37px;
+	position:relative;
+}
+.rank-score span{
+	display:block;
+}
+.bg-pro{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:#ececec;
+}
+.cur-pro{
+	position:absolute;
+	text-indent:20px;
+	font-size:14px;
+	height:100%;
+	background:#00d3db;
+	color:#FFF;
+}
+#cur-pro1{
+	width:86%;
+}
+#cur-pro2{
+	width:74%;
+}
+#cur-pro3{
+	width:56%;
+}
+#cur-pro4{
+	width:48%;
+}
+.rankList-right {
+	width:232px;
+	height:100%;
+	padding:27px 40px 0 34px;
+	line-height:20px;
+	color:#FFF;
+	font-size:14px;
+}
+/*合作机构*/
+.partner{
+	width:100%;
+	height:386px;
+}
+.partner-title{
+	margin:30px auto 30px auto;
+	width:249px;
+	height:26px;
+	background:url("../images/hezuo.png") center center no-repeat;
+}
+.partner-imgs{
+	width:1173px;
+	margin:0 auto;
+	height:300px;
+	border:#ececec solid 1px;
+	background:#FFF;
+}
+.partner-imgs li{
+	float:left;
+	width:189px;
+	height:83px;
+	margin:35px 50px;
+}
+.partner-imgs li img{
+	width:100%;
+	height:100%;
+}
