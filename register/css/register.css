@@ -1,0 +1,284 @@
+//用户注册页面
+.register-big-box{
+	width:100%;
+	height:685px;
+}
+.rigister-box{
+	width:1175px;
+	height:585px;
+	margin:50px auto 50px auto;
+	padding:50px 70px;
+	background:#FFF;
+}
+/*页面注册左面部分*/
+.register-left{
+	width:696px;
+	height:100%;
+}
+.userRegist-txt{
+	width:374px;
+	height:34px;
+	border-bottom:#f4f4f4 solid 1px;
+}
+.register-new{
+	font:18px/34px "Microsoft YaHei";
+	padding-bottom:3px;
+	color:#333;
+	border-bottom:#00d3db solid 2px;
+	margin-right:124px;
+}
+.register-now a{
+	font:14px/14px "Microsoft YaHei";
+	color:#ff6162;
+}
+#register-info{
+	width:100%;
+	height:100%;
+}
+#register-info li{
+	position:relative;
+	height:50px;
+	width:100%;
+	margin-top:28px;
+}
+.seeImg{
+	position:absolute;
+	left:300px;
+	width:20px;
+	height:100%;
+	background:url("../images/see.png") center center no-repeat;
+	cursor:pointer;
+}
+#userTel,#userPwd,#userRePwd{
+	width:334px;
+	height:100%;
+	border:#ddd solid 1px;
+	border-radius:5px;
+	padding:10px 40px;
+	margin-right:25px;
+}
+#userTel{
+	background:url("../images/tel.png") 10px center no-repeat;
+}
+#userPwd,#userRePwd{
+	background:url("../images/lock.png") 10px center no-repeat;
+}
+#agree{
+	margin-right:3px;
+	visibility:hidden;//隐藏默认的复选框样式
+
+}
+#checkIcon{
+	position:absolute;
+	top:5px;
+	left:-1px;
+	display:inline-block;
+	width:17px;
+	height:14px;
+	background-image:url("../images/login02.png");
+	background-position:center center;
+	background-repeat:no-repeat;
+} 
+.readAgree{
+	color:#666;
+	font-size:14px;
+	margin-right:50px;
+}
+#hint01,#hint02,#hint03{
+	font-size:14px;
+}
+#hint04{
+	color:#ff6162;
+	font-size:14px;
+	text-decoration:underline;
+	cursor:pointer;
+}
+.redTxt{
+	color:#ff6162;
+}
+#registerBtn{
+	width:334px;
+	height:50px;
+	line-height:50px;
+	background:#00d3db;
+	font-size:18px;
+	color:#FFF;
+	border-radius:5px;
+	cursor:pointer;
+}
+/*页面注册右面部分*/
+.register-right{
+	width:339px;
+	height:100%;
+}
+.register-right h1{
+	font:60px/180px "Microsoft YaHei";
+	color:#f0e3b5;
+}
+.register-right li{
+	font:18px/34px "Microsoft YaHei";
+	color:#333;
+	margin-bottom:40px;
+	list-style-image:url("../images/cir_03.gif");
+	list-style-position:inside;
+}
+/*协议*/
+.protocol{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background-color: rgba(0,0,0,.5);
+	overflow:auto;
+	display:none;
+}
+.protocol>div{
+	width:800px;
+	min-height:100%;
+	background:#FFF;
+	margin:0 auto;
+	padding:50px;
+	position:relative;
+	overflow-y:auto;
+}
+.protocol h3{
+	text-align: center;
+	display: block;
+	line-height: 50px;
+	font-size: 26px;
+}
+.protocol_text{
+	line-height:30px;
+	font-size:16px;
+}
+.close{
+	position:absolute;
+	top:0;
+	right:0;
+	padding:5px 10px;
+	text-align:center;
+	font-size:14px;
+	background:#EEE;
+	cursor:pointer;
+}
+.close:hover{
+	background:#DDD;
+}
+/*手机验证*/
+.verify{
+	width:100%;
+	height:100%;
+	position:fixed;
+	background:rgba(0,0,0,.5);
+	display:none;
+	top:0;//这不能少
+	left:0;//这不能少
+}
+.verify-box{
+	position:relative;
+	top:50%;
+	left:50%;
+	padding:13px 50px;
+	width:916px;
+	height:520px;
+	background:#FFF;
+	margin-top:-260px;
+	margin-left:-458px;
+}
+.verify-title{
+	width:100%;
+	height:58px;
+	border-bottom:#f4f4f4 solid 1px;
+}
+.verify-title span{
+	display:block;
+	width:112px;
+	height:58px;
+	line-height:58px;
+	font-size:18px;
+	color:#333;
+	border-bottom:#00d3db solid 2px;
+}
+#verify-tel{
+	width:100%;
+	height:379px;
+	padding:37px 0 0 80px;
+}
+#verify-tel li{
+	width:100%;
+	height:50px;
+	font-size:18px;
+	line-height:50px;
+	margin-top:21px;
+}
+#verify-tel li label{
+	display:inline-block;
+	width:165px;
+	text-align:left;
+}
+.pic-txt,.tel-txt{
+	position:relative;
+}
+.pic-txt{
+	top:-18px;
+}
+.tel-txt{
+	top:-1px;
+}
+#picVerify,#telVerify{
+	position:relative;
+	width:200px;
+	height:50px;
+	border:#dfdfdf solid 1px;
+	border-radius:5px;
+	padding:5px 10px;
+	margin-right:13px;
+}
+#picVerify{
+	top:-20px;
+}
+#telVerify{
+	top:-2px;
+}
+#pic,#sendCode{
+	display:inline-block;
+	width:140px;
+	height:50px;
+	border:#00d3db solid 1px;
+	border-radius:5px;
+}
+#sendCode{
+	font:16px/48px "Microsoft YaHei";
+	text-align:center;
+	color:#00d3db;
+	cursor:pointer;
+}
+#verHint{
+	display:inline-block;
+	color:#999;
+	font:12px/12px "Microsoft YaHei";
+	height:12px;
+	margin-left:10px;
+}
+#affirm{
+	display:block;
+	width:333px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	color:#FFF;
+    background:#02bbc2;
+    margin:80px 0 0 100px;
+    border-radius:5px;
+    cursor:pointer;
+}
+#close-telVerify{
+	position:absolute;
+	top:-15px;
+	right:-15px;
+	width:41px;
+	height:41px;
+	background:url("../images/close.png") center center;
+	cursor:pointer;
+}
