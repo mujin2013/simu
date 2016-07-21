@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>私权募股</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="css/base.css" type="text/css"/>
+		<link rel="stylesheet" href="css/register.css" type="text/css"/>
+	</head>
+	<body>
+		<!--页面头部开始-->
+		<header>
+			<div class="head-top">
+				<div class="top-box comWidth clearfix">
+					<ul class="top-txt clearfix">
+						<div class="name-box" id="name-box">
+							<li class="name-txt" id="name-txt">name</li>
+							<ul class="name-list" id="name-list">
+								<li><a href="#">账号设置</a></li>
+								<li><a href="#">我的投资</a></li>
+								<li><a href="#">银行卡管理</a></li>
+								<li><a href="#">消息中心</a></li>
+								<li><a href="#">认证服务</a></li>
+								<li><a href="#">退出登录</a></li>
+							</ul>
+						</div>
+						<li class="help">帮助中心</li>
+					</ul>
+				</div>
+			</div>
+			<div class="bottom-top">
+				<div class="bottom-box comWidth clearfix">
+					<span class="logo">logo</span>
+					<nav class="nav-list">
+						<div class="nav-list-first"><a href="../index/index.html">首页</a></div>
+						<div><a href="#">我要投资</a></div>
+						<div><a href="#">安全保障</a></div>
+						<div><a href="#">关于我们</a></div>
+						<div class="search-box">
+							<input type="text" class="input-area" id="input-area" placeholder="请输入收索内容"/>
+							<ul class="searchList" id="searchList">
+								<!-- <li><a href="#">keyword</a></li>
+								<li><a href="#">keyword</a></li>
+								<li><a href="#">keyword</a></li>
+								<li><a href="#">keyword</a></li>
+								<li><a href="#">keyword</a></li>
+								<li><a href="#">keyword</a></li> -->
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!--页面头部结束-->
+		<!-- 基本表单验证开始 -->
+		<section class="register-big-box">
+			<div class="rigister-box clearfix">
+				<div class="register-left fl">
+					<div class="userRegist-txt">
+						<span class="register-new">注册新账号</span>
+						<span class="register-now"><a href="../login/login.html">已完成注册，现在登录</a></span>
+					</div>
+					<form id="register-info">
+						<ul>
+							<li>
+								<input type="text" name="userTel" id="userTel" value="" placeholder="手机号" maxlength="11" autocomplete="off" disableautocomplete/>
+								<span id="hint01">请输入11位手机号</span>
+							</li>
+							<li>
+								<input type="password" name="userPwd" id="userPwd" class="pwd" value="" placeholder="请输入密码" maxlength="16"/>
+								<label class="seeImg"></label>
+								<span id="hint02">6-16为数字和字母的组合</span>
+							</li>
+							<li>
+								<input type="password" name="userRePwd" id="userRePwd" class="pwd"  value="" placeholder="请再次输入密码" maxlength="16"/>
+								<label class="seeImg"></label>
+								<span id="hint03">6-16为数字和字母的组合</span>
+							</li>
+							<li>
+								<input type="checkBox" name="agree" id="agree" value=""/>
+								<i id="checkIcon"></i><label for="agree" class="readAgree">我已阅读并同意该平台投资协议</label>
+								<span id="hint04">投资协议</span>
+							</li>
+							<li>
+								<input type="button" name="registerBtn" id="registerBtn" value="马上注册"/>
+							</li>
+						</ul>
+					</form>
+				</div>
+				<div class="register-right fr">
+					<h1>智慧理财</h1>
+					<ul>
+						<li>	
+						  ForeScout是一个自动化的安全控制平台为网络互联提供满足安全性的解决方案。
+						</li>
+						<li>
+						  网络互联提供满足安全性的解决方案。
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!-- 基本表单验证结束 -->
+		<!-- 协议开始 -->
+		<section class="protocol">
+			<div>
+				<h3>XXXX投资协议</h3>
+				<div class="protocol_text">
+					甲方自愿
+					将合法拥有的资金以资金管理的方式委托给乙方，并由乙方作为受托人按照本协议约定的方
+					式对资金进行经营，以期最大限度获取收益。
+					乙方资金管理
+					乙方将资金用于_____________________________________________。
+					甲方的出资
+					甲方均需以人民币现金的形式出资。乙方需拿租赁协议以及预算方案向甲方申请，甲方认可后把资金打入乙方账户。
+					甲方权利义务
+					甲方有权了解委托资产的管理、使用及收支情况，但在行使该权利以不影响乙方正常管理和运作委托资产为限。甲方应保证其对委托资产，有完全的权利进行处理，且委托资产投入本合同约定的投资领域并不会导致任何法律纠纷。对乙方以及处理资产管理事务的情况和资料负有依法保密义务，未经乙方同意，不得向任何人透露。
+					乙方权利义务
+					乙方在符合有关法律规定的基础上，有权依据本协议约定可以对委托资产进行经营管理，并保障其以诚实信用、谨慎勤勉的原则管理和运用委托资产，保证资金安全。乙方承诺将受委托管理资产定向投资于公司合作的指定项目。
+					收益与分配
+					1、本协议自甲方全额出资的第二个月起，乙方需每月按照 投资总额/24 在扣除相应手续费后支付给甲方指定账户。
+					2、本协议24个月之后甲方享受乙方公司纯利润40 %分红，直至乙方经营关闭为止。
+					税费的承担
+					本协议项下的委托资产承担相应的税费，按照法律、行政法规和国家有关部门的规定办理。
+					退出及清算
+					甲方出资后，不得要求退回出资，除有下列情况之一出现：乙方决定终止委托经营；经甲、乙双方协商一致同意；因行政机关、司法机关或其他国家机关的法律行为，导致本委托资产管理不能正常运营。委托资产的清算人由乙方担任，清算人在本协议终止后，开始进行清算活动，出具清算报告，对委托财产收益进行分配。
+					争议解决方式
+					因本协议而产生或与本协议有关的一切争议，如经友好协商未能解决的，应向乙方所在地人民法院提起诉讼。
+					其他
+					本协议一式两份，甲乙双方各执一份。本协议自甲方投资全部划入乙方开设的指定账户之日起生效。有效期自———年——月——日至————年——月——日止。
+					本协议未尽事宜，由甲乙双方协商解决
+					，也可以签订补充协议作为本协议的组成部分， 与本协议有同等法律效力。
+					甲方：（签章） 乙方：（签章）
+					法定代表人： 法定代表人：
+					年 月 日 年 月 日
+				</div>
+				<div class="close" id="close">关闭</div>
+			</div>
+		</section>
+		<!-- 协议结束 -->
+		<!-- 手机验证开始 -->
+		<section class="verify" id="verify">
+			<div class="verify-box">
+				<div class="verify-title">
+					<span>验证手机信息</span>
+				</div>
+				<form id="verify-tel">
+					<ul>
+						<li>
+							<label>手机号码：</label>
+							<span id="legalTel">13574678213</span>
+						</li>
+					<!-- 	<li>
+						<label for="picVerify" class="pic-txt">图形验证码：</label>
+						<input type="text" name="picVerify" id="picVerify" value=""/>
+						<span id="pic"></span>
+					</li> -->
+						<li>
+							<label for="telVerify" class="tel-txt">手机验证码：</label>
+							<input type="password" name="telVerify" id="telVerify" value=""/>
+							<span id="sendCode">获取短信验证码</span>
+							<span id="verHint">请输入验证码</span>
+						</li>
+						<li>
+							<span id="affirm">提交</span>
+						</li>
+					</ul>
+				</form>
+				<div id="close-telVerify"></div>
+			</div>
+		</section>
+		<!-- 手机验证结束 -->
+		<!-- 页面底部开始 -->
+		<footer>
+			<div class="footTop-box">
+				<div class="contact-info">
+					<ul class="contact-info-1">
+						<li class="info-title">关于我们</li>
+						<li><a href="#">公司简介</a></li>
+						<li><a href="#">管理团队</a></li>
+						<li><a href="#">社会责任</a></li>
+						<li><a href="#">合作伙伴</a></li>
+					</ul>
+					<ul class="contact-info-2">
+						<li class="info-title">帮助中心</li>
+						<li><a href="#">网站地图</a></li>
+						<li><a href="#">投资流程</a></li>
+						<li><a href="#">新手指引</a></li>
+						<li><a href="#">常见问题</a></li>
+					</ul>
+					<ul class="contact-info-3">
+						<li class="info-title">关注我们</li>
+						<li><img src="images/erweima.png"/></li>
+						<li id="attention">扫码关注微信平台</li>
+					</ul>
+					<ul class="contact-info-4">
+						<li class="info-title">联系我们</li>
+						<li id="tel">400-458-8567</li>
+						<li id="time">（周一到日：9:00-21:30）</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footBottom-box">
+				<p>© 2015 山东金融信息服务有限公司   ICP备13037734号</p>
+				<p>临沂市金融信息服务业专业委员会理事单位 | 临沂市信息服务业行业协会会员单位 | 临沂市网络信贷服务业企业联盟单位</p>
+			</div>
+		</footer>
+		<!-- 页面底部结束 -->
+		<script src="js/state.js"></script>
+		<script src="js/search.js"></script>
+		<script src="js/createXHR.js"></script>
+		<script src="js/register.js"></script>
+	</body>
+</html>

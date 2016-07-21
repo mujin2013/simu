@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>私权募股</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="css/base.css" type="text/css"/>
+		<link rel="stylesheet" href="css/login.css" type="text/css"/>
+	</head>
+	<body>
+		<!--页面头部开始-->
+		<header>
+			<div class="head-top">
+				<div class="top-box comWidth clearfix">
+					<ul class="top-txt clearfix">
+						<div class="name-box" id="name-box">
+							<li class="name-txt" id="name-txt">name</li>
+							<ul class="name-list" id="name-list">
+								<li><a href="#">账号设置</a></li>
+								<li><a href="#">我的投资</a></li>
+								<li><a href="#">银行卡管理</a></li>
+								<li><a href="#">消息中心</a></li>
+								<li><a href="#">认证服务</a></li>
+								<li><a href="#">退出登录</a></li>
+							</ul>
+						</div>
+						<li class="help">帮助中心</li>
+					</ul>
+				</div>
+			</div>
+			<div class="bottom-top">
+				<div class="bottom-box comWidth clearfix">
+					<span class="logo">logo</span>
+					<nav class="nav-list">
+						<div class="nav-list-first"><a href="../index/index.html">首页</a></div>
+						<div><a href="#">我要投资</a></div>
+						<div><a href="#">安全保障</a></div>
+						<div><a href="#">关于我们</a></div>
+						<div class="search-box">
+							<input type="text" class="input-area" id="input-area" placeholder="请输入收索内容"/>
+							<ul class="searchList" id="searchList">
+								<!-- <li><a href="#">keyword</a></li>
+								<li><a href="#">keyword</a></li>
+								<li><a href="#">keyword</a></li>
+								<li><a href="#">keyword</a></li>
+								<li><a href="#">keyword</a></li>
+								<li><a href="#">keyword</a></li> -->
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!--页面头部结束-->
+		<!--页面头部主体开始-->
+		<section class="login-box clearfix">
+			<div class="login-box-txt">
+				<h1>智慧理财</h1>
+				<p>ForeScout 是一个自动化的安全控制平台，为网络互联提供满足安全性的解决方案。</p>
+				<p>目前 ForeScout 拥有一个名为 “CounterACT”的解决方案，公司表示，如果设备环境允许并安排合理，这款设备可以拓展成为 70 多款安全工具。</p>
+			</div>
+			<div class="login">
+				<div class="login-title clearfix">
+					<span id="userLogin" class="fl">账号登录</span>
+					<span class="fr userRegist"><a href="../register/register.html" id="regist">注册新用户</a></span>
+				</div>
+				<form id="login_info">
+					<input type="text" placeholder="手机号" name="userName" id="userName" value=""
+					autocomplete="off" disabledautocomplete/>
+					<input type="password" placeholder="密码" name="userPwd" id="userPwd" value=""/>
+					<div class="relPwd">
+							<label class="remPwd  fl"><input type="checkbox" name="rememberPwd"   id="rememberPwd"/><i id="checkIcon"></i><sapn class="remPwd-txt" id="remPwd">记住密码</sapn></label>
+							<span class="forgetPwd-box fr"><a href="javascript:void(0)" id="forgetPwd">忘记密码</a></span>
+					</div>
+					<span id="hint">用户名和密码不能为空!</span>
+					<input type="button" id="loginBtn" value="立即登录"/>
+				</form>
+				<div class="otherLogin">
+					<p>第三方登录:</p>
+					<ul class="otherName clearfix">
+						<li><a href="javascrit:void(0)" id="weixin"></a></li>
+						<li><a href="javascrit:void(0)" id="weibo"></a></li>
+						<li><a href="javascrit:void(0)" id="qq"></a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!--页面头部主体结束-->
+		<!-- 页面底部开始 -->
+		<footer>
+			<div class="footTop-box">
+				<div class="contact-info">
+					<ul class="contact-info-1">
+						<li class="info-title">关于我们</li>
+						<li><a href="#">公司简介</a></li>
+						<li><a href="#">管理团队</a></li>
+						<li><a href="#">社会责任</a></li>
+						<li><a href="#">合作伙伴</a></li>
+					</ul>
+					<ul class="contact-info-2">
+						<li class="info-title">帮助中心</li>
+						<li><a href="#">网站地图</a></li>
+						<li><a href="#">投资流程</a></li>
+						<li><a href="#">新手指引</a></li>
+						<li><a href="#">常见问题</a></li>
+					</ul>
+					<ul class="contact-info-3">
+						<li class="info-title">关注我们</li>
+						<li><img src="images/erweima.png"/></li>
+						<li id="attention">扫码关注微信平台</li>
+					</ul>
+					<ul class="contact-info-4">
+						<li class="info-title">联系我们</li>
+						<li id="tel">400-458-8567</li>
+						<li id="time">（周一到日：9:00-21:30）</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footBottom-box">
+				<p>© 2015 山东金融信息服务有限公司   ICP备13037734号</p>
+				<p>临沂市金融信息服务业专业委员会理事单位 | 临沂市信息服务业行业协会会员单位 | 临沂市网络信贷服务业企业联盟单位</p>
+			</div>
+		</footer>
+		<!-- 页面底部结束 -->
+		<script src="js/createXMLHttpRequest.js"></script>
+		<script src="js/state.js"></script>
+		<script src="js/search.js"></script>
+		<script src="js/login.js"></script>
+	</body>
+</html>
