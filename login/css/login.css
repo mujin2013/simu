@@ -1,0 +1,179 @@
+.login-box{
+	width:100%;
+	height:609px;
+	position:relative;
+	background:url("../images/login_bd.png") center center no-repeat;
+	background-size:cover;//对图像进行缩放
+	-webkit-background-size:cover;
+	   -moz-background-size:cover;
+	     -o-background-size:cover;
+	    -ms-background-size:cover;
+}
+/*登录页面左边的文字*/
+.login-box-txt{
+	position:absolute;
+	top:111px;
+	left:295px;
+	width:377px;
+	height:235px;
+}
+.login-box-txt h1{
+	font-size:55px;
+	line-height:55px;
+	color:#FFF;
+	margin-bottom:25px;
+}
+.login-box-txt p{
+	font-size:16px;
+	color:#00d3db;
+	line-height:26px;
+}
+/*登录页面右边的登录框*/
+.login{
+	position:absolute;
+	top:44px;
+	right:260px;
+	width:282px;
+	height:380px;
+	border:#c4c2c2 solid 1px;
+	background:#FFF;
+	border-radius:3px;
+	padding:20px 23px;
+}
+.login-title{
+	width:100%;
+	height:37px;
+	padding:1px;
+	border-bottom:#EEE solid 1px;
+
+}
+.login-title span{
+	display:inline-block;
+	font-family:"黑体";
+}
+#userLogin{
+	font-size:16px;
+	color:#333;
+	line-height:30px;
+	padding-bottom:4px;
+	border-bottom:#00d3db solid 2px;
+}
+.userRegist{
+	font-size:12px;
+	line-height:12px;
+	height:12px;
+	margin-top:11px;
+}
+#regist{
+	color:#ff6162;
+}
+#login_info{
+	width:100%;
+	height:245px;
+}
+#userName,#userPwd{
+	height:35px;
+	width:100%;
+	margin-top:21px;
+	padding:8px 41px;
+	font-size:16px;
+	line-height:32px;
+	color:#333;
+	border:#e3e3e3 solid 1px;
+	border-radius:5px;
+}
+#login_info input:-webkit-autofill{
+	  -webkit-box-shadow: 0 0 0px 1000px white inset;修改chrome记住密码后自动填充表单的黄色背景
+} 
+#userName{
+	background:url("../images/name.png") 10px center no-repeat;
+}
+#userPwd{
+	background:url("../images/pwd.png") 10px center no-repeat;
+	margin-bottom:34px;
+}
+.relPwd {
+	position:relative;
+	font-size:12px;
+	line-height:12px;
+	width:220px;
+	height:12px;
+	margin-bottom:9px;
+}
+#hint{
+	display:block;
+	width:100%;
+	height:16px;
+	line-height:16px;
+	color:#ff6162;
+	margin-bottom:9px;
+	visibility:hidden;
+}
+.remPwd-txt{
+	position:relative;
+	top:-2px;
+	margin-left:4px;
+}
+input[type=checkbox]{
+	visibility:hidden;//隐藏checkbox默认的样式
+}
+#checkIcon{
+	display:inline-block;
+	position:absolute;
+	left:0;
+	top:-1px;
+	width:14px;
+	height:14px;
+	background-image:url("../images/chebefor.png");
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+#forgetPwd{
+	color:#00d3db;
+}
+#loginBtn{
+	width:100%;
+	height:36px;
+	line-height:36px;
+	font-size:14px;
+	color:#FFF;
+	background:#00d3db;
+	border-radius:5px;
+	cursor:pointer;
+}
+.otherLogin{
+	width:100%;
+}
+.otherLogin p{
+	width:100%;
+	height:26px;
+	font-family:"SimSun";
+    line-height:26px;
+	font-size:12px;
+	color:#999;
+	text-align:left;
+    font-weight:normal;
+}
+.otherName {
+	width:100%;
+	height:21px;
+}
+.otherName li{
+	float:left;
+	height:100%;
+	width:40px;
+}
+.otherName li a{
+	display:inline-block;
+	width:100%;
+	height:100%;
+}
+#weixin{
+	background:url("../images/weixin.png") left center no-repeat;
+}
+#weibo{
+	background:url("../images/weibo.png") left center no-repeat;
+}
+#qq{
+	background:url("../images/qq.png") left center no-repeat;
+}
